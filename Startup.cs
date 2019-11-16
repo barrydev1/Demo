@@ -27,7 +27,11 @@ namespace Demo
 
             app.Run(async (context) =>
             {
+<<<<<<< HEAD
                 await context.Response.WriteAsync("Hello Everyone from the Cloud");
+=======
+                await context.Response.WriteAsync("Hello Azure!");
+>>>>>>> 9189e471620a21eec127329b58e9f78ff1a17314
             });
         }
     }
